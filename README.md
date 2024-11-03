@@ -23,7 +23,7 @@ This is a simple user registration application built with Spring Boot and MySQL.
 git clone https://github.com/yourusername/user-registration-app.git
 cd user-registration-app
 
-2. Configure MySQL Database
+### 2. Configure MySQL Database
 Create a new database in MySQL:
 CREATE DATABASE user_registration;
 Update the application.properties file with your MySQL credentials:
@@ -35,16 +35,16 @@ Update the application.properties file with your MySQL credentials:
 - spring.jpa.hibernate.ddl-auto=update
 - spring.jpa.show-sql=true
 
-3. Build the Application
+### 3. Build the Application
 Make sure you have Maven installed, then run:
 mvn clean install
 
-5. Run the Application
+### 4. Run the Application
 You can run the application using:
 mvn spring-boot:run
 Alternatively, you can run the UserRegistrationApplication class directly from your IDE.
 
-5. Testing the Registration API
+### 5. Testing the Registration API
 Use Postman or any other API testing tool to send a POST request to register a new user:
 
 ## URL:
